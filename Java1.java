@@ -1,9 +1,9 @@
-public abstract class Computer {
+abstract class Computer {
     public abstract void Start();
     public abstract void TurnOff();
 }
 
-public class Personal extends Computer {
+class Personal extends Computer {
     @Override
     public void Start() {
         System.out.println("PC: Power button pressed");
@@ -15,7 +15,7 @@ public class Personal extends Computer {
     }
 }
 
-public class Laptop extends Computer {
+class Laptop extends Computer {
     @Override
     public void Start() {
         System.out.println("Laptop: Opening lid and pressing power");
