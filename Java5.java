@@ -81,8 +81,8 @@ class Operations {
 
 class InstanceofExample {
     public static void main(String[] args) {
-        String text = "Hello";
-        Integer number = 42;
+        String text = "Hi";
+        Integer number = 5267;
         String nullString = null;
         
         System.out.println(text instanceof String);      // true
@@ -91,7 +91,7 @@ class InstanceofExample {
         // Несовместимые типы - ошибка компиляции
         // System.out.println(text instanceof Integer); // Ошибка
         
-        // null всегда false
+        // null всегда выдаёт false
         System.out.println(nullString instanceof String);  // false
         System.out.println(null instanceof Object);        // false
     }
