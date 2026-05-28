@@ -1,6 +1,6 @@
 // Практика 6 классы-оболочки
 
-public class P6 {
+public class Java6 {
     public static void main(String[] args) {
         // decode()
         Integer d1 = Integer.decode("52");
