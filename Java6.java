@@ -1,5 +1,3 @@
-// Практика 6 классы-оболочки
-
 public class Java6 {
     public static void main(String[] args) {
         // decode()
