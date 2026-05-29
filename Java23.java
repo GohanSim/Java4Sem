@@ -54,11 +54,11 @@ class Animal23 {
     }
 }
 
-class Dog23 extends Animal23 {
+class Anime23 extends Animal23 {
 
     @Override
     void sound() {
-        System.out.println("гав");
+        System.out.println("ня");
     }
 
     /*
@@ -91,7 +91,7 @@ public class Java23 {
         obj.print();
 
         // override
-        Dog23 dog = new Dog23();
+        Anime23 dog = new Anime23();
 
         dog.sound();
     }
