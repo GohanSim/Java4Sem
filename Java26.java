@@ -1,5 +1,3 @@
-// практика 26 inner и nested class
-
 public class Java26 {
 
     public static void main(String[] args) {
